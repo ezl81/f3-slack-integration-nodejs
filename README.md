@@ -1,7 +1,7 @@
 <h1>NodeJS Backblast to Slack Integration</h1>
 <p>SlackBlast JS is a form based way to fill out backblasts.  It integrates with <a href="https://github.com/F3Nation-Community/PAXminer">PaxMiner</a> to allow for pulling in AO’s that are used and formats the backblast in Slack to make it compatible with <a href="https://github.com/F3Nation-Community/PAXminer">PaxMiner</a>.  The user just has to type /backblast into a message window in Slack and the form pops up to allow them to get started.</p>
 
-<img src="https://github.com/ezl81/f3-slack-integration-nodejs/blob/main/Screenshot_Form.png" height="75%" width="75%"/>
+<img src="https://raw.githubusercontent.com/ezl81/f3-slack-integration-nodejs/main/Screenshots/Screenshot_Form.png" height="75%" width="75%"/>
 
 <h1>**Technical** Setup and Installation</h1>
 
@@ -20,12 +20,12 @@
 <h3>1) Setup Slack Application</h3>
 <ol type="A">
   <li>
-    Open the <a href="https://api.slack.com/">Slack API</a> page and click on "Your Apps".  <img src="" />
+    Open the <a href="https://api.slack.com/">Slack API</a> page and click on "Your Apps".  <img src="https://raw.githubusercontent.com/ezl81/f3-slack-integration-nodejs/main/Screenshots/Screenshot_OpenApps.png" />
   </li>
   <li>
-    Click on the button "Create New App" <img src=""/>
+    Click on the button "Create New App" <br/><img src="https://raw.githubusercontent.com/ezl81/f3-slack-integration-nodejs/main/Screenshots/Screenshot_CreateNewApp_Button.png" />
   </li>
   <li>
-    A message box comes up.  Select "From an app manifest" <img src="" />
+    A message box comes up.  Select "From an app manifest"<br/> <img src="https://raw.githubusercontent.com/ezl81/f3-slack-integration-nodejs/main/Screenshots/Screenshot_CreateNewApp_FromManifest.png" />
   </li>
 </ol>
