@@ -17,7 +17,35 @@
   The basic process is to create a Slack application and attach the NodeJS code to it.  Once they are talking to each other everything will work. There are a few steps to get to this point.  If you have any questions through this process feel free to reach out <a href="mailto:EzellBrian@gmail.com">to contact me.</a>
 </p>
 <h1>Walk through steps</h1>
-<h3>1) Setup Slack Application</h3>
+<h3>
+  1) Setup Heroku Platform - to host NodeJS code
+</h3>
+<ol type="A">
+  <li>
+    Open <a href="https://heroku.com">Heroku</a>.  Some people choose Azure to host their apps but I've had better luck with Heroku.  Mainly, it has been easier to configure and less moving parts to go wrong.  You may need to create an account on here, but everything is free.
+  </li>
+  <li>
+    Once you're signed up and signed in you'll need to go to the dashboard.  From here click the "New" button and choose "Create new app". <br/><img src="" />
+  </li>
+  <li>
+    On the next screen enter a name for the app and click "Add to pipeline..." <br/><img src="" />
+  </li>
+  <li>
+    A dropdown list will appear for pipelines.  Think of these like at the bank when you get the money dispenser at the drive through.  You would put your code into the dispenser and it would get put out on the web.  
+  </li>
+  <li>
+    Under the dropdown click "Create new pipeline" <br/><img src="" />
+  </li>
+  <li>
+    It will give the choice for either staging or production.  Normally you would setup a staging environment before pushing to production, but for this tutorial its quicker to use production.  (This is not the recommended way to do good development so please don't send me hate emails!) <br/><img src="" />
+  </li>
+  <li>
+    Once you click "Create App" it will 
+  </li>
+</ol>
+
+
+<h3>2) Setup Slack Application</h3>
 <ol type="A">
   <li>
     Open the <a href="https://api.slack.com/">Slack API</a> page and click on "Your Apps".  <img src="https://raw.githubusercontent.com/ezl81/f3-slack-integration-nodejs/main/Screenshots/Screenshot_OpenApps.png" />
