@@ -18,4 +18,14 @@
 </p>
 <h1>Walk through steps</h1>
 <h3>1) Setup Slack Application</h3>
-<p>Open the <a href="https://api.slack.com/">Slack API</a> page and click on "Your Apps".  
+<ol type="A">
+  <li>
+    Open the <a href="https://api.slack.com/">Slack API</a> page and click on "Your Apps".  <img src="" />
+  </li>
+  <li>
+    Click on the button "Create New App" <img src=""/>
+  </li>
+  <li>
+    A message box comes up.  Select "From an app manifest" <img src="" />
+  </li>
+</ol>
