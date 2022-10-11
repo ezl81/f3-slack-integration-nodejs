@@ -1,0 +1,19 @@
+{
+  "name": "backblastnodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "author": "Brian Ezell",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "license": "BEE",
+  "dependencies": {
+    "@slack/bolt": "^3.12.1",
+    "@slack/oauth": "^2.5.4",
+    "bluebird": "^3.7.2",
+    "dotenv": "^16.0.3",
+    "mongoose": "^6.6.2",
+    "mysql2": "^2.3.3"
+  }
+}
