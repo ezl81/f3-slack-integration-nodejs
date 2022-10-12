@@ -28,22 +28,21 @@
     Once you're signed up and signed in you'll need to go to the dashboard.  From here click the "New" button and choose "Create new app". <br/><img src="" />
   </li>
   <li>
-    On the next screen enter a name for the app and click "Add to pipeline..." <br/><img src="" />
+    On the next screen enter a name for the app and click "Add to pipeline..." <br/><img src="https://raw.githubusercontent.com/ezl81/f3-slack-integration-nodejs/main/Screenshots/Screenshot_Heroku_AppName.png" />
   </li>
   <li>
     A dropdown list will appear for pipelines.  Think of these like at the bank when you get the money dispenser at the drive through.  You would put your code into the dispenser and it would get put out on the web.  
   </li>
   <li>
-    Under the dropdown click "Create new pipeline" <br/><img src="" />
+    Under the dropdown click "Create new pipeline" <br/><img src="https://raw.githubusercontent.com/ezl81/f3-slack-integration-nodejs/main/Screenshots/Screenshot_Heroku_CreatePipeline.png" />
   </li>
   <li>
-    It will give the choice for either staging or production.  Normally you would setup a staging environment before pushing to production, but for this tutorial its quicker to use production.  (This is not the recommended way to do good development so please don't send me hate emails!) <br/><img src="" />
+    It will give the choice for either staging or production.  Normally you would setup a staging environment before pushing to production, but for this tutorial its quicker to use production.  (This is not the recommended way to do good development so please don't send me hate emails!) <br/><img src="https://raw.githubusercontent.com/ezl81/f3-slack-integration-nodejs/main/Screenshots/Screenshot_Heroku_CreatePipeline2.png" />
   </li>
   <li>
     Once you click "Create App" it will 
   </li>
 </ol>
-
 
 <h3>2) Setup Slack Application</h3>
 <ol type="A">
